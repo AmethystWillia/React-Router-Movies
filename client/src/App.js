@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Link, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import SavedList from './Movies/SavedList';
 
 import MovieList from './Movies/MovieList';
-import MovieCard from './Movies/MovieCard';
 import Movie from './Movies/Movie';
 
 export default function App () {
